@@ -1,0 +1,27 @@
+'''Increasing batch size from 200 to 300 leads us with a model that performs inferiorly on both the train and test set compared to original model''' 
+
+Using TensorFlow backend.
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+2018-07-07 17:57:23.210892: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+ - 5s - loss: 0.3121 - acc: 0.9126 - val_loss: 0.1622 - val_acc: 0.9520
+Epoch 2/10
+ - 5s - loss: 0.1280 - acc: 0.9637 - val_loss: 0.1065 - val_acc: 0.9674
+Epoch 3/10
+ - 5s - loss: 0.0843 - acc: 0.9760 - val_loss: 0.0857 - val_acc: 0.9743
+Epoch 4/10
+ - 5s - loss: 0.0611 - acc: 0.9826 - val_loss: 0.0794 - val_acc: 0.9766
+Epoch 5/10
+ - 5s - loss: 0.0458 - acc: 0.9872 - val_loss: 0.0684 - val_acc: 0.9790
+Epoch 6/10
+ - 5s - loss: 0.0340 - acc: 0.9909 - val_loss: 0.0680 - val_acc: 0.9784
+Epoch 7/10
+ - 5s - loss: 0.0263 - acc: 0.9934 - val_loss: 0.0637 - val_acc: 0.9809
+Epoch 8/10
+ - 5s - loss: 0.0196 - acc: 0.9956 - val_loss: 0.0618 - val_acc: 0.9805
+Epoch 9/10
+ - 5s - loss: 0.0152 - acc: 0.9968 - val_loss: 0.0591 - val_acc: 0.9805
+Epoch 10/10
+ - 5s - loss: 0.0120 - acc: 0.9978 - val_loss: 0.0585 - val_acc: 0.9813
+Score : 98.13%
+[Finished in 54.7s]
