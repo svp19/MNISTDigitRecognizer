@@ -7,7 +7,7 @@ The MNIST dataset comprises 60,000 training examples and 10,000 test examples of
 ![](cnn/images/result_2.png?raw=true) 
 ![](cnn/images/result_1.png?raw=true) 
 
-##Scores
+## Scores
 | Model | Accuracy |
 | --- | --- |
 | Simple Neural Network | 98.17% |
