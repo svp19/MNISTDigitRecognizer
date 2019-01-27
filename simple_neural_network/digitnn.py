@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 (X_train,y_train),(X_test,y_test) = mnist.load_data() 
 '''
 #See data
-
 plt.subplot(221)
 plt.imshow(X_train[0], cmap = plt.get_cmap('gray'))
 
@@ -57,6 +56,5 @@ model.compile(optimizer='adam',loss = 'categorical_crossentropy',metrics=['accur
 model.fit(X_train,y_train, validation_data=(X_test,y_test),epochs=10,batch_size=250,verbose=2)
 
 #Final Results
-
 scores =  model.evaluate(X_test,y_test,verbose=0)
 print("Score : %.2f%%" % (scores[1]*100))
